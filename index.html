@@ -10,15 +10,23 @@
   <body>
     <div id='header'>
       <h1 alt="header">Adopt a Floof</h1>
+      <button id="sign-out-btn">Sign out</button>
     </div>
-
+    <div class="sign-in">
+        <form id="sign-up" class="add-pet-form" style="">
+            <h3>Sign up</h3>
+            <input id="username" type="text" name="username" value="" placeholder="Username" class="input-text">
+            <input id="postcode" type="text" name="postcode" value="" placeholder="Postcode" class="input-text">
+            <input type="submit" name="submit" value="Show me the floof" class="submit">
+        </form>
+    </div>
     <div class="container">
-      <form class="add-pet-form" style="">
+      <form id="create-pet" class="add-pet-form" style="">
         <h3>Submit pet for adoption</h3>
 
         <input type="text" name="name" value="" placeholder="Name" class="input-text">
         <br>
-        <input type="text" name="image_url" value="" placeholder="Image URL" class="input-text">
+        <input type="text" name="img_url" value="" placeholder="Image URL" class="input-text">
         <br>
         <input type="text" name="years" value="" placeholder="Years" class="input-text">
         <br>

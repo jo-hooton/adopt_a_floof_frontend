@@ -29,7 +29,6 @@ body {
     border: #bbb0ff 5px;
     padding: 1rem;
     width: 15rem;
-    height: 25rem;
     display: inline-grid;
     margin: 1rem 2rem;
     box-shadow: 3px 4px #ffa7ce
@@ -62,15 +61,17 @@ body {
   
   .container {
     padding: 1rem;
-    width: stretch;
+    width: auto;
     height: auto;
     display: none;
     background: #bbb0ff;
     opacity: .8;
+    justify-content: center;
   }
   
   .add-pet-form {
     width: 80%
+    justify-self: center;
   }
   
   .submit {
