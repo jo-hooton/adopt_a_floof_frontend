@@ -1,9 +1,26 @@
 body {
     margin: 0;
     font-family: 'Offside', cursive;
-    cursor: url(http://www.rw-designer.com/cursor-view/112181.gif), auto;	
+    cursor: url(http://www.rw-designer.com/cursor-view/112181.gif), auto;
   }
-  
+
+
+.card-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #bbb0ff;
+}
+
+.pet-img {
+  /* position: relative; */
+  /* overflow: hidden; */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
   #header {
     display: flex;
     justify-content: center;
@@ -14,16 +31,16 @@ body {
     padding: 1rem;
     font-family: 'Offside', cursive;
   }
-  
+
   #header img {
     height: 6rem;
     width: auto;
   }
-  
+
   #pet-listings {
     margin: 2rem;
   }
-  
+
   .card {
     text-align: center;
     border: #bbb0ff 5px;
@@ -31,15 +48,17 @@ body {
     width: 15rem;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #ffa7ce
+    box-shadow: 3px 4px #ffa7ce;
+    height: 640px;
+    border-radius: 2%;
   }
-  
-  .pet-img {
+
+  /* .pet-img {
     justify-self: center;
     height: 12rem;
     width: auto;
-  }
-  
+  } */
+
   button {
     position: relative;
     background-color: #bbb0ff;
@@ -51,14 +70,14 @@ body {
     font-size: 18px;
     justify-self: center;
   }
-  
+
   button:hover {
     background-color: whitesmoke;
     border: #907eff solid 1px;
     color: #907eff;
     cursor: url(http://www.rw-designer.com/cursor-view/48614.png), auto;
   }
-  
+
   .container {
     padding: 1rem;
     width: auto;
@@ -68,12 +87,12 @@ body {
     opacity: .8;
     justify-content: center;
   }
-  
+
   .add-pet-form {
     width: 80%
     justify-self: center;
   }
-  
+
   .submit {
     position: relative;
     background-color: #ffa7ce;
@@ -86,15 +105,15 @@ body {
     font-family: 'Offside', cursive;
     margin: 3px;
   }
-  
+
   .submit:hover {
     background-color: whitesmoke;
     border: #907eff solid 1px;
     color: #907eff;
     cursor: url(http://www.rw-designer.com/cursor-view/48614.png), auto;
   }
-  
-  
+
+
   .input-text {
     border-radius: 5px;
     height: 2rem;
@@ -103,4 +122,3 @@ body {
     font-family: 'Offside', cursive;
     margin: 3px;
   }
-  
